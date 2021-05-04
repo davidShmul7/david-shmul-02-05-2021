@@ -1,0 +1,56 @@
+.mainContainer {
+  text-align: center;
+  height: 420px;
+  border: 1px solid;
+  /* margin-right: 70px;
+  margin-left: 70px; */
+  width: 80%;
+  margin: auto;
+}
+
+.containerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+.currentWeather {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.forcastWeather,
+.favoritesWeather {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 15%;
+}
+
+.addToFavorites {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.labelContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.weatherLabel {
+  margin-top: 10px;
+}
+
+.forcastContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.favoritesIndication {
+  border: 1px solid;
+}

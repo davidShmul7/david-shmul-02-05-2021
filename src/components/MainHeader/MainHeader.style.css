@@ -1,0 +1,34 @@
+.site-header {
+  justify-content: space-between;
+  align-items: center;
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  flex: 6;
+  text-align: start;
+}
+
+.navHome {
+  flex: 1;
+}
+
+.navHome a {
+  border: 1px #ccc solid;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+  color: black;
+}
+
+.home,
+.favorites {
+  background-color: #5d00ff3b;
+}
