@@ -8,7 +8,7 @@ import fetch from "isomorphic-fetch";
  */
 export const getDailyForecasts = async ({ locationKey }) => {
   const apiKey = "nksorniD02MKyprdzS4Yq3AahnJdFFMu";
-  const endpoint = `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}?apikey=${apiKey}`;
+  const endpoint = `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}?apikey=${apiKey}`;
 
   try {
     const response = await fetch(endpoint);

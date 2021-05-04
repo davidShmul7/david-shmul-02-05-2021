@@ -9,7 +9,7 @@ import fetch from "isomorphic-fetch";
  */
 export const getLocationByAutoComplete = async ({ searchText }) => {
   const apiKey = "nksorniD02MKyprdzS4Yq3AahnJdFFMu";
-  const endpoint = `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${apiKey}&q=${searchText}`;
+  const endpoint = `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${apiKey}&q=${searchText}`;
 
   try {
     const response = await fetch(endpoint);
