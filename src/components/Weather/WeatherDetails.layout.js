@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect } from "react";
 import "./WeatherDetails.style.css";
 import SearchLocation from "../search/SearchLocation.layout";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import { getLocationByAutoComplete } from "../../api/getLocationByAutoComplete.api";
 import { getCurrentConditions } from "../../api/getCurrentConditions.api";
 import { getDailyForecasts } from "../../api/getDailyForecasts";
